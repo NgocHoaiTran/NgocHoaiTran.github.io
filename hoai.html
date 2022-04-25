@@ -7,6 +7,71 @@
 		Trần Ngọc Hoài
 	</title>
   <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 1em;
+  background-color: #fff;
+
+  /* Link color variable containing RGB value */
+  --link-color: 102, 153, 255;
+}
+
+
+
+a {
+  position: relative;
+  display: inline-block;
+  
+  
+  text-decoration: none;
+  color: rgb(var(--link-color));
+}
+
+a:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+
+  /* Adjust height and bottom values to work with selected font */
+  height: .05em;
+  bottom: .1em;
+
+  /* Create gradient */
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(var(--link-color), .6) 30%,
+    rgba(var(--link-color), .7) 50%,
+    rgba(var(--link-color), .6) 70%,
+    transparent 100%
+  );
+
+  /* Set-up fade-in animation */
+  opacity: 0;
+  animation: fadeIn 400ms ease-out forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
 	a{
       color:#999966;
     }
@@ -77,12 +142,12 @@
 			<a  style="text-decoration: none" href="https://suckhoegiadinh.com.vn/song-tam-ly/dich-den-cua-cuoc-doi-o-dau-19544/">Blog ✎</a>
 	<br /><br />
 	<h1 align="center">
-		<font face="Lato" color="#999966" size="7">
+		<font face="Square Peg" color="#999966" size="7">
 			Live for every second without hesitation
 		</font>
 	</h1>
 	 <h3 align="center">
-		<font face="Lato" color="#999966" size="5">
+		<font face="Square Peg" color="#999966" size="5">
 			Life is a journey to death 
 		</font>
 	</h3>
