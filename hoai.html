@@ -1,40 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="Vieport" content="width=device-width, initial-scale=1.0">
-        <title>Profile</title>
-       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="font.css">
-        
-        <link rel="shortcut icon" href="Think different.png">
-    </head>
-    <body>
-        <div class="card">
-            <div class="card__img">
-              <img src="hoai.jpg.jpg" alt="" />
-            </div>
-            <h2>Ngoc Hoai</h2>
-            <p>Developer</p>
-            <div class="card__social">
-              <a target="_black" href="https://www.facebook.com/hoai2902">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a target="_black" href="https://www.instagram.com/ngochoai_12/">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a target="_black" href="https://www.tiktok.com/@ngochoaii112?lang=vi-VN">
-                <i class="fab fa-tiktok"></i>
-              <a
-                target="_black"
-                href="https://ngochoaitran.github.io/">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-            
-          
-            <button>Contact me</button>
-          </div>
-        </body>
-      </html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="3097975.png">
+	<title>
+		Trần Ngọc Hoài
+	</title>
+  <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 1em;
+  background-color: #fff;
+
+  /* Link color variable containing RGB value */
+  --link-color: 102, 153, 255;
+}
+
+
+
+a {
+  position: relative;
+  display: inline-block;
+  
+  
+  text-decoration: none;
+  color: rgb(var(--link-color));
+}
+
+a:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+
+  /* Adjust height and bottom values to work with selected font */
+  height: .05em;
+  bottom: .1em;
+
+  /* Create gradient */
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(var(--link-color), .6) 30%,
+    rgba(var(--link-color), .7) 50%,
+    rgba(var(--link-color), .6) 70%,
+    transparent 100%
+  );
+
+  /* Set-up fade-in animation */
+  opacity: 0;
+  animation: fadeIn 400ms ease-out forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+	a{
+      color:#999966;
+    }
+    body{
+      background-image:url('https://c.wallhere.com/images/b2/e7/87d10becc8ca4d2f2820b118f81b-1472239.jpg!d');
+    }
+    * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+    .btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+      */
+      
+      
+  </style>
+</head>
+<body background="" link="#000" alink="#017bf5" vlink="#000">
+	<br />
+	<h3 align="center">
+		<img src="logo1.png" width="50px" height="auto" ><font face="Lato" size="6" color="#999966"></font>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<font face="cinzel" size="4">
+			<a  style="text-decoration: none"href="https://ngochoaitran.github.io/">AboutMe 🗣  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+			
+			<a style="text-decoration: none"href="https://docs.google.com/forms/d/e/1FAIpQLScWt0970MM6GmOSULfbg4arM0zSAIDctMDO4Kgs9Jm81eS2pg/viewform?usp=sf_link" >BuiltIt 🛠</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a  style="text-decoration: none" href="https://suckhoegiadinh.com.vn/song-tam-ly/dich-den-cua-cuoc-doi-o-dau-19544/">Blog ✎</a>
+	<br /><br />
+	<h1 align="center">
+		<font face="Square Peg" color="#999966" size="7">
+			Live for every second without hesitation
+		</font>
+	</h1>
+	 <h3 align="center">
+		<font face="Square Peg" color="#999966" size="5">
+			Life is a journey to death 
+		</font>
+	</h3>
+	<div class="buttons"><h3 align="center">
+	<form action="https://zaloweb.me/">
+    <button class="btn-hover color-2" type="submit">Contact US</button>
+</form>&nbsp;&nbsp; </div>
+	
+	</a>
+	</h3>
+</body>
+</html>
