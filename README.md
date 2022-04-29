@@ -7,3 +7,8 @@ Full Name: Tran Ngoc Hoai
 - School:<a href="http://cdktcnnt.edu.vn/" style="color:black;"> Cao Dang Ky Thuat Cong Nghe Nha Trang  </a>
 <p> <marquee direction="right">Phone &#9743;: 0354398892</marquee></p>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921__340.jpg" height="300" >
+ <footer>
+  <p>Contact: pleasehi2219@gmail.com
+
+ Design by : Trần Ngọc Hoài</p>
+</footer>
