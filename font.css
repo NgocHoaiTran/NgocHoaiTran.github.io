@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 :root {
-  --pink-color: #f2726a;
+  --pink-color:#D2B48C;
 }
 
 * {
@@ -13,7 +13,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(45deg, #363d39, #232b26);
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@ p {
   color: var(--pink-color);
 }
 
-button {
+button{
   outline: none;
   border: none;
   color: white;
