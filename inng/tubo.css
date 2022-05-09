@@ -337,8 +337,11 @@ img {
 
 .skills__img {
   border-radius: .5rem;
-  width:400px;
+  width:350px;
   height:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* ===== WORK =====*/
