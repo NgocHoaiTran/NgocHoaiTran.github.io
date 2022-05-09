@@ -320,19 +320,19 @@ img {
 }
 
 .skills__html {
-  width: 70%;
-}
-
-.skills__css {
-  width: 80%;
-}
-
-.skills__js {
   width: 50%;
 }
 
-.skills__ux {
+.skills__css {
+  width: 50%;
+}
+
+.skills__js {
   width: 30%;
+}
+
+.skills__ux {
+  width: 20%;
 }
 
 .skills__img {
