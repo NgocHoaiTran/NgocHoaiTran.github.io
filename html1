@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LapTrinh</title>
+    <style>
+      *{
+  padding:0;
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.task-menu{
+  padding: 10px;
+  margin: 0;
+  background-color:#333;
+}
+ul{
+  float: right;
+  margin-right: 80px;
+  
+}
+ul li {
+  text-left: 25px;
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  padding: 25px;
+  
+  
+  
+  
+}
+img {
+  width : 70px;
+  
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+.text-info{
+    background-color: white;
+    padding: 200px 50px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+
+  
+}
+home__title{
+  margin-bottom:25px;
+ 
+}
+.home__title-color {
+    color: #3E6FF4;
+}
+.barin{
+  font-family: 'Poppins', sans-serif;
+}
+button{
+  border-radius:10px;
+  border: 1px solid #3E6FF4 ;
+  color:white;
+  background-color:#3E6FF4;
+  padding: 0.75rem 2.5rem;
+  margin: 25px;
+  display: inline-block;
+}
+footer{
+  text-align: center;
+  padding: 20px 80px 100px;
+  background-color: #0D1730;
+  color: white;
+  
+}
+/* .img__source {
+  float: right;
+  display: inline-block;
+  width: 450px;
+}
+
+/*
+.text-info br {
+  text-decoration:none;
+}
+    
+    
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+      <div class ="task-menu">
+          <div class="img-menu">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLb49bCGm_NsTmz9bgmEpHdbwLRWsA5nOInQ&usqp=CAU">
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">INFO</a></li>
+              <li><a href="">Home</a></li>
+        </ul>
+        </div>
+    </div>
+    <!-- Middle -->
+    <div class="text-info">
+          
+          <div class="barin">
+              <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">NgocHoai</span><br> Web Designer</h1>
+            <button>Contact Us</button>
+        </div>
+        </div>
+    <footer>Desgin By: Tran Ngoc Hoai</footer>
+      
+    
+          
+  </body>
+</html>
