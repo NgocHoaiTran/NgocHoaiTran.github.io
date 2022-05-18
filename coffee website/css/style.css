@@ -88,7 +88,7 @@ section{
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 7rem;
 }
 
 .header .navbar a{
@@ -310,15 +310,16 @@ section{
 
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
 
 .products .box-container .box{
     text-align: center;
     border:var(--border);
-    padding: 6.5rem;
+    padding: 2.5rem;
     background-color: #333333;
+    border-radius: 30px;
 }
 
 .products .box-container .box .icons a{
@@ -360,7 +361,21 @@ section{
 .products .box-container .box .content .price{
     color:#fff;
     font-size: 1.9rem;
+    flex-basis: 130px;
+    width: 130px;
+    height: 28px;
+    border-radius: 15px;
+    background-color: #ef8573;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    display:inline-table;
 }
+
 
 .products .box-container .box .content .price span{
     text-decoration: line-through;
@@ -653,4 +668,19 @@ button{
     padding: 10px;
     border-radius: 10px;
     background-color: var(--main-color);
+    margin: 5px;
+    
+}
+.items-slide{
+    text-align: center;
+
+}
+.fa-angle-left:before {
+    font-size: 15px;
+    padding: 10px;
+}
+.fa-angle-double-right:before, .fa-angles-right:before {
+    
+    padding: 10px;
+    font-size: 15px;
 }
