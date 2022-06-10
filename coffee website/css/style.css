@@ -335,6 +335,10 @@
         padding-left:10px;
 
     }
+    .products .box-container .box .content .price strong{
+        color:#fd475a;
+
+    }
 
     .products .box-container .box .icons a{
         height: 5rem;
