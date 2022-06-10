@@ -211,7 +211,7 @@
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background:url(/images/background.jpg) no-repeat;
+        background:url(/background.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
