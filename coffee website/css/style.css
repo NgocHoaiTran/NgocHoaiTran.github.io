@@ -113,6 +113,35 @@
     .header .icons div:hover{
         color:var(--main-color);
     }
+    .header .kho-kil{
+        display:flex;
+    }
+    .header .kho-kil .icons {
+        margin: auto;
+    }
+    .header button{
+        box-shadow: 0 4px 6px #3e000029;
+        
+        right: -1px;
+        top: 0px;
+        
+        border: none;
+        border-radius: 17px;
+        width: 42px;
+        height: 42px;
+        outline: none;
+        font-size: 17px;
+        color: #fff;
+    } 
+    .header .navbar input{
+            width: 400px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px #3e000029;
+            font-weight: bold;
+
+
+        }
 
     #menu-btn{
         display: none;
@@ -256,6 +285,33 @@
     .about .row .content h3{
         font-size: 3rem;
         color:#fff;
+    }
+    .about ul li {
+        display: inline-block;
+    }
+    .about .style {
+        background: #cc9966;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        margin-bottom: 10px;
+        padding: 15px;
+        display: flex;
+        
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        max-width: 1200px
+    }
+    .fa-gear:before, .fa-cog:before {
+        font-size: 25px;
+    }
+    .about .narpar .root1 li {
+        list-style: none;
+        padding: 15px;
+    }
+    .about a {
+        color: white;
     }
 
     .about .row .content p{
