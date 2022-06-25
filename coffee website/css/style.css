@@ -993,6 +993,7 @@ footer .container .noi-dung.about p{
     }
      input {
         width: 100%;
+         display:none;
     }
     .header .navbar{
         position: absolute;
