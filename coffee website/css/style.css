@@ -57,6 +57,16 @@ section{
     width: 1200px;
     margin: 0 auto
 }
+.header-navigation {
+    width: 100%;
+    display: inline-flex;
+    background: #00483d;
+    padding: 6px 0;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 section .box-home .hearder {
     
     margin-bottom: 20px;
@@ -183,15 +193,26 @@ ul {
 }
 
 .header{
-    background: #00483d;
+    background: #ebe9e9;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:1rem 7%;
-    border-bottom: var(--border);
-    position: sticky;
+    
+    
     top:0; left: 0; right: 0;
     z-index: 1000;
+}
+.naviga-nav{
+    display: inline-flex;
+    margin-right:67px;
+}
+.naviga-nav li {
+    padding: 0 10px 0 0;
+    margin: 0;
+    float: right;
+    font-size: 12px;
+    color: #fff;
 }
 
 .header .logo img{
@@ -445,7 +466,7 @@ ul {
     justify-content: center;
     text-align: center;
     position: relative;
-    
+    max-width: 1200px
 }
 .fa-gear:before, .fa-cog:before {
     font-size: 25px;
@@ -609,7 +630,7 @@ ul {
  
 .checkoptions {
     display: block;
-    
+    background:#00483d;
     border-radius: 10px;
     padding: 6px 8px;
     box-shadow: rgb(62 0 0 / 16%) 0px 4px 6px;
@@ -618,6 +639,10 @@ ul {
     font-size: 12px;
     width: 110px;
     position: relative
+}
+.fa-shopping-cart:before {
+    color: #00483d;
+    content: "\f07a";
 }
 .checkoptions .textkt {
     color: white;
@@ -770,6 +795,30 @@ strong {
     color:#ccc;
     padding:1rem 0;
 }
+/* Footer mới css */
+.footer-stt{
+    display:grid;
+    
+}
+.footer-stt img{
+    margin-right: 3px;
+}
+h3{
+    color:#FFFFFF;
+    margin-bottom:22px;
+    position: relative;
+    margin-top:12px;
+}
+footer .container h3::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+/* Footer mới css */
 footer{
     position: relative;
     width: 100%;
@@ -993,7 +1042,6 @@ footer .container .noi-dung.about p{
     }
      input {
         width: 100%;
-         display:none;
     }
     .header .navbar{
         position: absolute;
