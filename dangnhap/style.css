@@ -202,6 +202,12 @@ p{
 .title-header p {
     color: #3CB371;
 }
+@media (max-width 1024px){
+    .header{
+        display: none;
+    }
+
+}
 
 
 
