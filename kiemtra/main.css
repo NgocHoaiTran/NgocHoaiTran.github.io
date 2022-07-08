@@ -1093,6 +1093,19 @@ footer .container .noi-dung.about p{
         width: max-content;
     }
 }
+@media (max-width: 1440px ) {
+    .about .style {
+        max-width: 100%;
+    
+    }
+
+}
+@media ( max-width:2560px ){
+    .about .style {
+        max-width: 100%;
+    }
+
+}
 
 
 
