@@ -18,7 +18,23 @@
 
 </head>
 <body>
-    
+    <!-- Mới thêm-->
+    <button class="nut-mo-chatbox" onclick="moForm()"><i id="famo" class="fa fa-envelope" aria-hidden="true"></i></button>
+    <div class="Chatbox" id="myForm">
+    <form action="" class="form-container">
+        <div class="close">
+        <h1>Ngọc Hoài Mobile</h1>
+        <i id="fafa" class="fa fa-close" onclick="dongForm()"></i>
+        
+        </div>
+        <p id="textgt">Chúng tôi sẵn sàng lắng nghe ý kiến góp ý của quý khách hàng</p>
+       
+        <textarea placeholder="Bạn hãy nhập lời nhắn.." name="msg" required></textarea>
+
+        <button type="submit" class="btn">Gửi</button>
+        <!-- <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Đóng</button> -->
+    </form>
+    </div>
 <!-- header section starts  -->
 <div class="header-navigation">
     <ul class="naviga-nav">
@@ -894,6 +910,15 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-
+<script>
+    function moForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+    /*Hàm Đóng Form*/
+    function dongForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+</script>
+</body>
 </body>
 </html>
