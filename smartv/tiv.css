@@ -2,7 +2,7 @@
 
 :root{
     --main-color:#d3ad7f;
-    --black:#13131a;
+/*     --black:#13131a; */
     
     --bg:#ebe9e9;
     
@@ -51,6 +51,17 @@ section{
     margin-top:70px;
     position:absolute;
     
+}
+#dienthoaididong,
+#phukien,
+#giadung,
+#dongho,
+#smartTV,
+#dochoicongnghe,
+#simthe,
+#suachua:hover 
+ {
+    color: white;
 }
 .container-em {
     min-width: 1200px;
