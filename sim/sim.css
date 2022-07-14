@@ -2,7 +2,7 @@
 
 :root{
     --main-color:#d3ad7f;
-    --black:#13131a;
+/*     --black:#13131a; */
     
     --bg:#ebe9e9;
     
@@ -66,6 +66,17 @@ section{
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+#dienthoaididong,
+#phukien,
+#giadung,
+#dongho,
+#smartTV,
+#dochoicongnghe,
+#simthe,
+#suachua:hover 
+ {
+    color: white;
 }
 dialog {
     
