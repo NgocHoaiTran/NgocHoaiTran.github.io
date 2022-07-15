@@ -52,17 +52,6 @@ section{
     position:absolute;
     
 }
-#dienthoaididong,
-#phukien,
-#giadung,
-#dongho,
-#smartTV,
-#dochoicongnghe,
-#simthe,
-#suachua:hover 
- {
-    color: white;
-}
 .container-em {
     min-width: 1200px;
     width: 1200px;
@@ -77,6 +66,17 @@ section{
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+#dienthoaididong,
+#phukien,
+#giadung,
+#dongho,
+#smartTV,
+#dochoicongnghe,
+#simthe,
+#suachua:hover 
+ {
+    color: white;
 }
 dialog {
     
@@ -597,6 +597,14 @@ ul {
     color:#e57d7d;
     margin:.3rem;
 }
+.header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+}
 .products .chuoi-open .box-open:hover {
     background:transparent linear-gradient(90deg,#009981 0%,#00483d 100%) 0% 0% no-repeat;
     color: white;
@@ -1009,6 +1017,29 @@ footer .container .noi-dung.about p{
         input {
             display: none
         }
+        .header .navbar.active {
+            right: 0;
+        }
+        .header .navbar {
+            position: absolute;
+            top: 100%;
+            right: -100%;
+            background: #fff;
+            width: 30rem;
+            height: calc(100vh - 9.5rem);
+        }
+        .root1{
+            display: none;
+        }
+        .about { 
+            display: none
+        }
+        .header {
+            background: #00483d;
+        }
+        #cart-btn {
+            display: none;
+        }
     footer{
         padding: 11px;
             }
@@ -1045,6 +1076,41 @@ footer .container .noi-dung.about p{
 
 
 /* media queries  */
+@media (max-width:425px ){
+    .root1 {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .header {
+        background: #00483d;
+    }
+    #menu-btn {
+        display: inline-block;
+    }
+    .root1 {
+        right: 0;
+    }
+    .header .navbar.active {
+        right: 0;
+    }
+    #cart-btn {
+        display: none;
+    }
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+    .style {
+        right:0;
+    }
+    
+}
 @media (max-width:1024px){
 
     html{
