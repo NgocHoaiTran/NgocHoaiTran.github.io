@@ -78,6 +78,17 @@ section{
  {
     color: white;
 }
+#dienthoaididong,
+#phukien,
+#giadung,
+#dongho,
+#smartTV,
+#dochoicongnghe,
+#simthe,
+#suachua {
+    padding: 7px;
+    background:#00483d;
+}
 dialog {
     
     margin:auto;
@@ -480,12 +491,12 @@ ul {
     display: inline-block;
 }
 
-.about .style {
+.header .narpar {
     background: #00483d;
     font-size: 15px;
     border-radius: 5px;
     color: white;
-    margin-bottom: 10px;
+    
     padding: 4px;
     display: flex;
     
@@ -528,7 +539,12 @@ ul {
 .menu .box-container .box img{
     height: 10rem;
 }
-
+.narpar ul {
+    display: flex;
+}
+.narpar ul li a {
+    color: white;
+}
 .menu .box-container .box h3{
     color: #fff;
     font-size: 2rem;
@@ -1134,6 +1150,30 @@ footer .container .noi-dung.about p{
     .container-em{
         display: none;
     }
+    
+}
+@media (max-width: 768px){
+.header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+}
+.header .navbar .active {
+    right: 0;
+}
+#font,
+#true,
+#flash,
+#yes,
+#none,
+#blue,
+#table,
+#yellow {
+    display: none;
+}
 }
 
 @media (max-width:1024px){
@@ -1152,19 +1192,21 @@ footer .container .noi-dung.about p{
     }
     .header .navbar{
         position: absolute;
-        top:100%; 
+        top:20%; 
         right: 100%;
         background: #fff;
         width: 30rem;
         height: calc(100vh - 9.5rem);
+        z-index:1;
     }
+    
 
     .header .navbar.active{
         right:0;
     }
 
     .header .navbar a{
-        color:var(--black);
+        
         display: block;
         margin:1.5rem;
         padding:.5rem;
